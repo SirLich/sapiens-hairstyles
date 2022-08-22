@@ -12,3 +12,7 @@ This mod for the [Sapiens Video Game](https://store.steampowered.com/app/1060230
 ## Contact Us
 
 Feel free to [join the Discord.]( https://discord.gg/WnN8hj2Fyg)
+
+## Future Plans
+
+Woman hair, kids hair, etc.
