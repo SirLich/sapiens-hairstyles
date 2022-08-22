@@ -4,7 +4,7 @@ local modInfo = {
 	version = "1.0.0",
 	type = "app",
 	developer = "Art: 13єrsєrk, Code: SirLich",
-	preview = "assets/preview.jpg"
+	preview = "promo-art/preview.png"
 }
 
 return modInfo

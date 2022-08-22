@@ -150,7 +150,7 @@ local hairPaths = {
     [sapienConstants.lifeStages.adult.index] = {
         [maleIndex] = {
             base = "manHair",
-            count = 5,
+            count = 15,
             hasNilOption = true,
         },
         [femaleIndex] = {
@@ -164,7 +164,7 @@ local beardPaths = {
     [sapienConstants.lifeStages.adult.index] = {
         [maleIndex] = {
             base = "manBeard",
-            count = 7,
+            count = 13,
         },
     },
 }
