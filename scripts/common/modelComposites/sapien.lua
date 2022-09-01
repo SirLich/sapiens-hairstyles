@@ -6,6 +6,16 @@
 --- @author SirLich
 
 
+-- VARIABLES TO CHANGE
+local MAN_BEARD_COUNT = 13
+local WOMAN_HAIR_COUNT = 14
+local MAN_HAIR_COUNT = 15
+local GIRL_HAIR_COUNT = 4
+local BOY_HAIR_COUNT = 5
+-- END
+
+
+
 local mjm = mjrequire "common/mjm"
 local rng = mjrequire "common/randomNumberGenerator"
 local sapienConstants = mjrequire "common/sapienConstants"
@@ -140,22 +150,22 @@ local hairPaths = {
     [sapienConstants.lifeStages.child.index] = {
         [maleIndex] = {
             base = "boyHair",
-            count = 1,
+            count = BOY_HAIR_COUNT,
         },
         [femaleIndex] = {
             base = "girlHair",
-            count = 1,
+            count = GIRL_HAIR_COUNT,
         }
     },
     [sapienConstants.lifeStages.adult.index] = {
         [maleIndex] = {
             base = "manHair",
-            count = 15,
+            count = MAN_HAIR_COUNT,
             hasNilOption = true,
         },
         [femaleIndex] = {
             base = "womanHair",
-            count = 7,
+            count = WOMAN_HAIR_COUNT,
         }
     },
 }
@@ -164,7 +174,7 @@ local beardPaths = {
     [sapienConstants.lifeStages.adult.index] = {
         [maleIndex] = {
             base = "manBeard",
-            count = 13,
+            count = MAN_BEARD_COUNT,
         },
     },
 }
